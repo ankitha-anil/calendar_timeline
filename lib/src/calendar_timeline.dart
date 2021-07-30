@@ -99,7 +99,7 @@ class _CalendarTimelineState extends State<CalendarTimeline> {
     super.initState();
     initializeDateFormatting(_locale);
     _initCalendar();
-    _scrollAlignment = widget.leftMargin;
+    _scrollAlignment = widget.leftMargin/100;
   }
 
   /// Refreshes the calendar when a day, month or year is selected
