@@ -348,7 +348,7 @@ class _CalendarTimelineState extends State<CalendarTimeline> {
     _controllerYear.scrollTo(
       index: index,
       alignment: _scrollAlignment,
-      duration: Duration(milliseconds: 500),
+      duration: Duration(milliseconds: 200),
       curve: Curves.easeIn,
     );
   }
@@ -364,7 +364,7 @@ class _CalendarTimelineState extends State<CalendarTimeline> {
     _controllerMonth.scrollTo(
       index: index,
       alignment: _scrollAlignment,
-      duration: Duration(milliseconds: 500),
+      duration: Duration(milliseconds: 200),
       curve: Curves.easeIn,
     );
   }
@@ -381,7 +381,7 @@ class _CalendarTimelineState extends State<CalendarTimeline> {
     _controllerDay.scrollTo(
       index: index,
       alignment: _scrollAlignment,
-      duration: Duration(milliseconds: 500),
+      duration: Duration(milliseconds: 200),
       curve: Curves.easeIn,
     );
   }
