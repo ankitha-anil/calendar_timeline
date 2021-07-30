@@ -337,10 +337,10 @@ class _CalendarTimelineState extends State<CalendarTimeline> {
   }
 
   _goToActualYear(int index) {
-//     _moveToYearIndex(index);
-//     _yearSelectedIndex = index;
-//     _monthSelectedIndex = null;
-//     _resetCalendar(_years[index]);
+    _moveToYearIndex(index);
+    _yearSelectedIndex = index;
+    _monthSelectedIndex = null;
+    _resetCalendar(_years[index]);
     setState(() {});
   }
 
@@ -370,7 +370,7 @@ class _CalendarTimelineState extends State<CalendarTimeline> {
   }
 
   _goToActualDay(int index) {
-   // _moveToDayIndex(index);
+    _moveToDayIndex(index);
     _daySelectedIndex = index;
     _selectedDate = _days[index];
     widget.onDateSelected(_selectedDate);
